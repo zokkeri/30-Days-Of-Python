@@ -127,3 +127,48 @@ print(not True)      # False - Negation, the not operator turns true to false
 print(not False)     # True
 print(not not True)  # True
 print(not not False)  # False
+
+# Exercises:
+
+age = 33
+height = 1.76
+complex_number = 5 + 1j
+
+base = float(input("Enter base: "))
+height = float(input("Enter height: "))
+print("The area of the triangle is ", (base * height)/2)
+
+side_a = float(input("Enter side a: "))
+side_b = float(input("Enter side b: "))
+side_c = float(input("Enter side c: "))
+print("The perimeter of the triangle is ", side_a+side_b+side_c)
+
+x = 3
+y = x**2 + 6*x + 9
+
+print(len("python"))
+print(len("dragon"))
+print("python" == "dragon")
+
+print("on" in "python" and "on" in "dragon")
+
+print("jargon" in "I hope this course is not full of jargon")
+
+print("jargon" not in "dragon")
+
+print(str(float(len("dragon"))))
+
+print(7//3 == int(2.7))
+
+print(type('10') == type(10))
+
+#print(int('9.8') == 10)
+
+years = int(input("Enter the number of years you have lived: "))
+print("You have lived for ", years*365*24*60*60, " seconds.")
+
+print('''1 1 1 1 1
+2 1 2 4 8
+3 1 3 9 27
+4 1 4 16 64
+5 1 5 25 125''')
