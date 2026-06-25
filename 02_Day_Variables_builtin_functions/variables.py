@@ -40,7 +40,7 @@ floor_division = num_one // num_two
 radius = 30
 area_of_circle = 3.14 * radius**2
 circum_of_circle = 3.14 * 2* radius
-user_radius = float(input("Give radius"))30
+user_radius = float(input("Give radius"))
 print("Area is: ", 3.14*user_radius**2)
 
 user_first_names = input("Give first name: ")
