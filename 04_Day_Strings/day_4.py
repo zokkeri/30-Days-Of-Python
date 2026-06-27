@@ -248,3 +248,135 @@ challenge = 'thirty days of python'
 print(challenge.startswith('thirty'))  # True
 challenge = '30 days of python'
 print(challenge.startswith('thirty'))  # False
+
+
+# Exercises:
+
+#1
+
+string1 = "Thirty " + "Days " + "Of " + "Python"
+print(string1)
+
+#3
+
+company = "Coding For All"
+
+#4
+
+print(company)
+
+#5
+
+print(len(company))
+
+#6
+
+print(company.upper())
+
+#7
+
+print(company.lower())
+
+#8
+
+print(company.capitalize())
+print(company.title())
+print(company.swapcase())
+
+#9
+
+print(company[7:])
+
+#10
+
+print(company.find("Coding"))
+
+#11
+
+print(company.replace("Coding", "Python"))
+print(company)
+
+#13
+
+print(company.split())
+
+#14
+
+print("Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon".split(", "))
+
+#15
+
+print(company[0])
+
+#16
+
+print(f"Last index: {len(company)-1}")
+
+#17
+
+print(company[10])
+
+#20
+
+print(company.index("C"))
+
+#21
+
+print(company.index("F"))
+
+#22
+
+print("Coding FOr All People".rindex("l"))
+
+#23
+
+print('You cannot end a sentence with because because because is a conjunction'.index("because"))
+
+#24
+
+print('You cannot end a sentence with because because because is a conjunction'.rindex("because"))
+
+#25
+
+print('You cannot end a sentence with because because because is a conjunction'.replace(" because because because", ""))
+
+#26
+
+print('You cannot end a sentence with because because because is a conjunction'.find("because"))
+
+#28
+
+print(company.startswith("Coding"))
+
+#29
+
+print(company.endswith("Coding"))
+
+#30
+
+print("  Coding For All   ")
+print("  Coding For All   ".strip())
+
+#31
+
+# The second
+
+#32
+
+print("# ".join(['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']))
+
+#33
+
+print("I am enjoiying the challenge\nI just wonder what is next")
+
+#34
+
+print("Name\t\tAge\tCountry\tCity\nAsabeneh\t250\tFinland\tHelsinki")
+
+#35
+
+radius = 10
+area = 3.14*radius**2
+print("""radius = {}
+area = 3.14 * radius ** 2
+The area of a circle with radius {} is {:.0f} meters square""".format(radius, radius, area))
